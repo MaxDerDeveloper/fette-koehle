@@ -925,7 +925,7 @@ class TutorialScreen {
 	constructor() {
 		this.text = "Es ist eine hoffnungslose Zeit\nim Land der Fetten Köhle...\nDie Taschen der Leute sind leer\nund ihre Herzen getrübt\nDoch Hoffnung keimt am Horizont auf:\nEinige Glücksspielprofis haben vor,\ndie digitale Spielewelt vollkommen zu verändern...\nWenn du schon zu den Meistern gehörst,\nüberspringe dies gerne,\nwenn du den Weg der FETTEN KÖHLE\nnoch lernen musst, heißen wir dich herzlich willkommen!\n\nDas Herzstück unseres Roulettes\nist das große Rad über der Mitte\nDarunter seht ihr 37 Zahlen\nin rot, schwarz und grün.\nDu erhältst etwas Start-KÖHLE,\nGeh sorgfältig damit um!\nMit einem Klick auf\neine der Optionen setzt du 10 Einheiten\nWette schlau,\nDas Rad dreht sich mit einem Klick,\nund bleibt bei einer der Zahlen stehen!\nDamit wird entschieden,\nwer seine KÖHLE vervielfacht,\n und wer sie abgibt.\nAm unteren Bildschirmrand\nkannst du deinen Frust\nim Chat auslassen.\nBleib aber immer nett und respektvoll!\nDas eingebaute System wird\ndeine Mitspieler schon genug nerven.\nAber nun, mein Kind,\nbrich auf auf dein Abenteuer\nund fülle deine Taschen mit\nKÖHLE!!!";
 		this.y    = 0;
-		this.img  = s.loadImage(`${SCHEME}//${HOST}/static/game/img/layers/schriftzug.png`);
+		this.img  = s.loadImage(`${SCHEME}//${HOST}/img/schriftzug/schriftzug.png`);
 		this.button = new Button(
 			5, 5, 
 			100, 50,
