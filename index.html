@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Fette Köhle</title>
+		<script src="js/lib/p5.min.js"></script>
+		<script src="js/main.js"></script>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+		<div class="form-wrapper">
+			<form id="username-form">
+				<h1>Hallo!</h1>
+				<h4>Wähle einen Spielernamen</h4>
+
+				<div class="input-wrapper">
+					<input id="username" class="input" type="text" placeholder="Username" name="username" autocomplete=off>
+					<input type="submit" class="submit" value="Bestätigen">
+				</div>
+				
+			</form>
+		</div>
+
+		<div id="canvasdiv" class="canvas" hidden></div>
+
+		<div class="chat-wrapper" hidden>
+			<ol class="chat-messages" id="chat-ol" reversed="reversed"></ol>
+
+			<form id="chat-form">
+				<input type=text id="chat-input" name="msg">
+				<button type=submit>Senden</button>
+			</form>
+		</div>
+	</body>
+</html>
