@@ -137,7 +137,7 @@ function escapeHtml(unsafe) {
 function sendKidneySellingMessage() {
 	appendMessage(
 		"<span style='position:relative; left:25px; color:#0066ff; line-height:150%;'>Dr. Seriös</span>",
-		"<div style='height:128px;'><img src='https://max-weiser.de/static/game/img/doctor.jpg' style='float:left; margin-right:15px; border-radius: 64px' height=128 width=128><p>Vielen Dank, " + escapeHtml(document.username) + "!<br>Hier hast du 500 Köhle-Chips für deine Niere.</p></div>",
+		"<div style='height:128px;'><img src='/img/doctor.jpg' style='float:left; margin-right:15px; border-radius: 64px' height=128 width=128><p>Vielen Dank, " + escapeHtml(document.username) + "!<br>Hier hast du 500 Köhle-Chips für deine Niere.</p></div>",
 		true
 	);
 }
